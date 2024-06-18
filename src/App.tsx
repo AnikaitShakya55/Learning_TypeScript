@@ -1,5 +1,6 @@
 import React from 'react'
 import MyButton from './Components/MyButton';
+import MyForm from './Components/MyForm';
 
 
 const App = () => {
@@ -7,7 +8,7 @@ const App = () => {
 
     <div>
        
-       <h1>functioncal Component and how to handle props as well </h1>
+       <MyForm/>
        
        <MyButton onClick={()=> alert("Click me more")} text="Click Me more!!" />
 
